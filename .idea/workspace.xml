@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a944d9c-572f-449c-ae1a-603d4c5d7083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NumIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TrieString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/PrefixTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/StringSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Euler/META-INF/Euler.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TrieString.java" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,31 +39,31 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TrieString">
-    <configuration name="CoupleKnights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.CoupleKnights" />
-      <module name="Euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PrefixTree">
     <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.KnightTour" />
       <module name="Euler" />
@@ -86,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.NumIslands" />
+    <configuration name="PrefixTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.PrefixTree" />
       <module name="Euler" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +103,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrieString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TrieString" />
+    <configuration name="StringSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.StringSample" />
+      <module name="Euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Trie" />
       <module name="Euler" />
       <extension name="coverage">
         <pattern>
@@ -128,25 +145,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrieString" />
-        <item itemvalue="Application.NumIslands" />
+        <item itemvalue="Application.PrefixTree" />
+        <item itemvalue="Application.Trie" />
+        <item itemvalue="Application.StringSample" />
         <item itemvalue="Application.LinkedListEasy" />
         <item itemvalue="Application.KnightTour" />
-        <item itemvalue="Application.CoupleKnights" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -177,50 +182,61 @@
       <workItem from="1579267899654" duration="1701000" />
       <workItem from="1579485524281" duration="4095000" />
       <workItem from="1579498690401" duration="64000" />
-      <workItem from="1579521702085" duration="8338000" />
+      <workItem from="1579499398264" duration="29745000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1577427382732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577427382732" />
-    <state width="913" height="337" key="GridCell.Tab.0.bottom" timestamp="1579531943105">
+    <state width="1874" height="259" key="GridCell.Tab.0.bottom" timestamp="1579496620639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579531943105" />
-    <state width="913" height="337" key="GridCell.Tab.0.center" timestamp="1579531943104">
+    <state width="1874" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579496620639" />
+    <state width="1874" height="259" key="GridCell.Tab.0.center" timestamp="1579496620638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579531943104" />
-    <state width="913" height="337" key="GridCell.Tab.0.left" timestamp="1579531943104">
+    <state width="1874" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579496620638" />
+    <state width="1874" height="259" key="GridCell.Tab.0.left" timestamp="1579496620638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579531943104" />
-    <state width="913" height="337" key="GridCell.Tab.0.right" timestamp="1579531943105">
+    <state width="1874" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579496620638" />
+    <state width="1874" height="259" key="GridCell.Tab.0.right" timestamp="1579496620639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579531943105" />
-    <state width="913" height="337" key="GridCell.Tab.1.bottom" timestamp="1579531943108">
+    <state width="1874" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579496620639" />
+    <state width="1874" height="338" key="GridCell.Tab.1.bottom" timestamp="1579081181024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579531943108" />
-    <state width="913" height="337" key="GridCell.Tab.1.center" timestamp="1579531943107">
+    <state width="1874" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579081181024" />
+    <state width="1874" height="338" key="GridCell.Tab.1.center" timestamp="1579081181023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579531943107" />
-    <state width="913" height="337" key="GridCell.Tab.1.left" timestamp="1579531943106">
+    <state width="1874" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579081181023" />
+    <state width="1874" height="338" key="GridCell.Tab.1.left" timestamp="1579081181023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579531943106" />
-    <state width="913" height="337" key="GridCell.Tab.1.right" timestamp="1579531943107">
+    <state width="1874" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579081181023" />
+    <state width="1874" height="338" key="GridCell.Tab.1.right" timestamp="1579081181023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579531943107" />
+    <state width="1874" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579081181023" />
     <state x="688" y="273" key="SettingsEditor" timestamp="1577600715575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,9 +245,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="613" y="137" width="683" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578327786185" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1579521984962">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579521984962" />
   </component>
 </project>
