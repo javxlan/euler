@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a944d9c-572f-449c-ae1a-603d4c5d7083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/PrefixTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/StringSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MergeK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Euler/META-INF/Euler.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TrieString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Euler/test/PrefixTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Euler/test/PrefixTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/PrefixTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PrefixTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +61,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrefixTree">
-    <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.KnightTour" />
+  <component name="RunManager" selected="Application.MergeSortedArray">
+    <configuration name="LinkedListEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.LinkedListEasy" />
       <module name="Euler" />
       <extension name="coverage">
         <pattern>
@@ -77,15 +75,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.LinkedListEasy" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSortedArray" />
       <module name="Euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.PrefixTree" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.StringSample" />
         <item itemvalue="Application.LinkedListEasy" />
-        <item itemvalue="Application.KnightTour" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +174,8 @@
       <workItem from="1579267899654" duration="1701000" />
       <workItem from="1579485524281" duration="4095000" />
       <workItem from="1579498690401" duration="64000" />
-      <workItem from="1579499398264" duration="29745000" />
+      <workItem from="1579499398264" duration="29805000" />
+      <workItem from="1579652813666" duration="11409000" />
     </task>
     <servers />
   </component>
@@ -194,7 +187,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
