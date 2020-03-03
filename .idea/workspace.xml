@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a944d9c-572f-449c-ae1a-603d4c5d7083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Robber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Euler/META-INF/Euler.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Euler/META-INF/Euler.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Euler/test/AmazonProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Euler/test/TrieString$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Euler/test/TrieString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AmazonProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AmazonProducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/CoupleKnights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CoupleKnights.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579682412624</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final day">
+      <created>1583227951241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583227951241</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +207,10 @@
     </state>
     <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577427382732" />
     <state x="1024" y="311" key="#com.intellij.ide.util.MemberChooser/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583226785427" />
+    <state x="304" y="295" key="CommitChangelistDialog2" timestamp="1583227950703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="304" y="295" key="CommitChangelistDialog2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227950703" />
     <state width="1237" height="402" key="GridCell.Tab.0.bottom" timestamp="1583227411620">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -249,6 +252,10 @@
     </state>
     <state x="688" y="273" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577600715575" />
     <state x="917" y="368" key="SettingsEditor/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583205768414" />
+    <state x="241" y="433" key="Vcs.Push.Dialog.v2" timestamp="1583227956755">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="241" y="433" key="Vcs.Push.Dialog.v2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227956755" />
     <state x="613" y="137" width="683" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578327786185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
