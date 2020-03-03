@@ -43,7 +43,7 @@ public class CoupleKnights {
         while (!tour.isEmpty() && (board[destination.r][destination.c] != 2)) {
             Point current = tour.remove();
             for (int m = 0; m < 8; m++) {
-                int nr = current.r + dr[m];
+                             int nr = current.r + dr[m];
                 int nc = current.c + dc[m];
 
 

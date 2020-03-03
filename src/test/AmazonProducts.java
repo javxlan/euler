@@ -1,13 +1,12 @@
 package test;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
 
-public class AmazonProduct {
+public class AmazonProducts {
 
 
     public static void main(String[] args) {
@@ -16,7 +15,7 @@ public class AmazonProduct {
         String query = "ball";
         List<String> products = Arrays.asList("bag", "ball", "banner", "baggage", "bags");
 
-        AmazonProduct m = new AmazonProduct();
+        AmazonProducts m = new AmazonProducts();
         m.threeProductSuggestions(numProducts, products, query);
 
     }
