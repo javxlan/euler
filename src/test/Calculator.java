@@ -14,7 +14,7 @@ public class Calculator {
     public static void main(String[] args) {
         LocalDate start = LocalDate.of(2019, 5, 18);
         LocalDate end = LocalDate.of(2019, 5, 20);
-        Double beginBalance= Double.valueOf(1000);
+        Double beginBalance = Double.valueOf(100000000);
         Calculator a = new Calculator();
 
         a.printStatement(a.initSchedule(start, end, beginBalance));
@@ -32,14 +32,14 @@ public class Calculator {
 
         int days = start.isLeapYear() ? 366 : 365;
 
-        double dailyInt = days / interests;
+        double dailyInt = interests / days;
 
         List<Statement> statements = new ArrayList<>();
 
         int i = 1;
         for (LocalDate s = start; s.isBefore(end); s = s.plusDays(1)) {
-            double dailyAmount = (currentBalance/100);
-            Statement temp = new Statement(i, s, currentBalance, 0);
+            double dailyIntAmount = (currentBalance * dailyInt) / 100;
+            Statement temp = new Statement(i, s, currentBalance, dailyIntAmount);
             statements.add(temp);
             i++;
         }
