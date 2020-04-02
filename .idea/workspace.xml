@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a944d9c-572f-449c-ae1a-603d4c5d7083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Day1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Day2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/StudentAttendance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.Day2">
     <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoupleKnights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.CoupleKnights" />
+    <configuration name="Day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Day1" />
       <module name="Euler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,19 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedArray" />
-      <module name="Euler" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrefixTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.PrefixTree" />
+    <configuration name="Day2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Day2" />
       <module name="Euler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentAttendance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.StudentAttendance" />
+      <module name="Euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day2" />
+        <item itemvalue="Application.Day1" />
+        <item itemvalue="Application.StudentAttendance" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Robber" />
-        <item itemvalue="Application.CoupleKnights" />
-        <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.PrefixTree" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583227951241</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final day">
+      <created>1583253580549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583253580549</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,29 +223,34 @@
     </state>
     <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577427382732" />
     <state x="1024" y="311" key="#com.intellij.ide.util.MemberChooser/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583226785427" />
-    <state x="304" y="295" key="CommitChangelistDialog2" timestamp="1583227950703">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2" timestamp="1583253580381">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583253580381" />
     <state x="304" y="295" key="CommitChangelistDialog2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227950703" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1583242768589">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1585838058150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583242768589" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838058150" />
+    <state width="1874" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585754855152" />
     <state width="1237" height="402" key="GridCell.Tab.0.bottom/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1583242768589">
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1585838058149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583242768589" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838058149" />
+    <state width="1874" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585754855151" />
     <state width="1237" height="402" key="GridCell.Tab.0.center/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1583242768588">
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1585838058149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583242768588" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838058149" />
+    <state width="1874" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585754855151" />
     <state width="1237" height="402" key="GridCell.Tab.0.left/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1583242768589">
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1585838058150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583242768589" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838058150" />
+    <state width="1874" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585754855151" />
     <state width="1237" height="402" key="GridCell.Tab.0.right/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
     <state width="1874" height="338" key="GridCell.Tab.1.bottom" timestamp="1579081181024">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -254,14 +273,19 @@
     </state>
     <state x="688" y="273" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583242084295" />
     <state x="917" y="368" key="SettingsEditor/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583205768414" />
-    <state x="241" y="433" key="Vcs.Push.Dialog.v2" timestamp="1583227956755">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1583253968091">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583253968091" />
     <state x="241" y="433" key="Vcs.Push.Dialog.v2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227956755" />
     <state x="613" y="137" width="683" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578327786185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="613" y="137" width="683" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578327786185" />
+    <state x="765" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583253965259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583253965259" />
     <state x="646" y="121" width="628" height="795" key="find.popup" timestamp="1583241997938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
