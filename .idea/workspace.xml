@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a944d9c-572f-449c-ae1a-603d4c5d7083" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,13 +213,12 @@
     <state x="4864" y="311" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1583298196615">
       <screen x="3840" y="0" width="2560" height="1400" />
     </state>
-    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577427382732" />
     <state x="1024" y="311" key="#com.intellij.ide.util.MemberChooser/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583226785427" />
     <state x="4864" y="311" key="#com.intellij.ide.util.MemberChooser/3840.0.2560.1400/0.0.2560.1400@3840.0.2560.1400" timestamp="1583298196615" />
-    <state x="304" y="295" key="CommitChangelistDialog2" timestamp="1583227971173">
+    <state x="304" y="295" width="667" height="810" key="CommitChangelistDialog2" timestamp="1586216920403">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="304" y="295" key="CommitChangelistDialog2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227971173" />
+    <state x="304" y="295" width="667" height="810" key="CommitChangelistDialog2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586216920403" />
     <state x="93" y="93" width="2375" height="1215" key="DiffContextDialog" timestamp="1583283648649">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -287,6 +285,10 @@
       <screen x="3840" y="0" width="2560" height="1400" />
     </state>
     <state width="498" height="446" key="SwitcherDM/3840.0.2560.1400/0.0.2560.1400@3840.0.2560.1400" timestamp="1583299551921" />
+    <state x="1707" y="416" key="VCS.ChangeListViewerDialog" timestamp="1586216876182">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1707" y="416" key="VCS.ChangeListViewerDialog/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586216876182" />
     <state x="241" y="433" key="Vcs.Push.Dialog.v2" timestamp="1583227974188">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -295,10 +297,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="613" y="137" width="683" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578327786185" />
-    <state x="1090" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583283614236">
+    <state x="1090" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586216863708">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1090" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583283614236" />
+    <state x="1090" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1586216863708" />
     <state x="4222" y="323" key="refactoring.ChangeSignatureDialog" timestamp="1583284532565">
       <screen x="3840" y="0" width="2560" height="1400" />
     </state>
