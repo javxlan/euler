@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a944d9c-572f-449c-ae1a-603d4c5d7083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Day3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Day4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Day5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Day6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Euler/leetcode/Day4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Euler/leetcode/Day4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Day1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Day2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Day3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Day4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Day4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day4">
+  <component name="RunManager" selected="Application.Day6">
     <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
@@ -66,19 +71,6 @@
       <arguments />
       <envs />
       <method v="2" />
-    </configuration>
-    <configuration name="Day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Day1" />
-      <module name="Euler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Day2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Day2" />
@@ -119,8 +111,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentAttendance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.StudentAttendance" />
+    <configuration name="Day5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Day5" />
+      <module name="Euler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Day6" />
       <module name="Euler" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day6" />
+        <item itemvalue="Application.Day5" />
         <item itemvalue="Application.Day4" />
         <item itemvalue="Application.Day3" />
         <item itemvalue="Application.Day2" />
-        <item itemvalue="Application.Day1" />
-        <item itemvalue="Application.StudentAttendance" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +238,6 @@
     <state x="1024" y="311" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1583226785427">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="768" y="231" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577427382732" />
     <state x="1024" y="311" key="#com.intellij.ide.util.MemberChooser/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583226785427" />
     <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2" timestamp="1585838266721">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -241,29 +245,29 @@
     <state x="228" y="219" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838266721" />
     <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583253580381" />
     <state x="304" y="295" key="CommitChangelistDialog2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227950703" />
-    <state width="1874" height="164" key="GridCell.Tab.0.bottom" timestamp="1586014757717">
+    <state width="1874" height="230" key="GridCell.Tab.0.bottom" timestamp="1586182723378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1586014757717" />
-    <state width="1874" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585754855152" />
+    <state width="1874" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586182723378" />
     <state width="1237" height="402" key="GridCell.Tab.0.bottom/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="164" key="GridCell.Tab.0.center" timestamp="1586014757717">
+    <state width="1874" height="230" key="GridCell.Tab.0.center" timestamp="1586182723375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="164" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1586014757717" />
-    <state width="1874" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585754855151" />
+    <state width="1874" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586182723375" />
     <state width="1237" height="402" key="GridCell.Tab.0.center/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="164" key="GridCell.Tab.0.left" timestamp="1586014757717">
+    <state width="1874" height="230" key="GridCell.Tab.0.left" timestamp="1586182723375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="164" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1586014757717" />
-    <state width="1874" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585754855151" />
+    <state width="1874" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586182723375" />
     <state width="1237" height="402" key="GridCell.Tab.0.left/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="164" key="GridCell.Tab.0.right" timestamp="1586014757717">
+    <state width="1874" height="230" key="GridCell.Tab.0.right" timestamp="1586182723377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="164" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1586014757717" />
-    <state width="1874" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585754855151" />
+    <state width="1874" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586182723377" />
     <state width="1237" height="402" key="GridCell.Tab.0.right/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
     <state width="1874" height="338" key="GridCell.Tab.1.bottom" timestamp="1579081181024">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -290,11 +294,11 @@
     </state>
     <state x="688" y="273" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583242084295" />
     <state x="917" y="368" key="SettingsEditor/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583205768414" />
-    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1585838318060">
+    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1586186624654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838318060" />
-    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583253968091" />
+    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586186624654" />
     <state x="241" y="433" key="Vcs.Push.Dialog.v2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227956755" />
     <state x="613" y="137" width="683" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578327786185">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -305,6 +309,10 @@
     </state>
     <state x="765" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838311417" />
     <state x="765" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583253965259" />
+    <state x="535" y="258" width="839" height="598" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586098969033">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="535" y="258" width="839" height="598" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1586098969033" />
     <state x="646" y="121" width="628" height="795" key="find.popup" timestamp="1583241997938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
