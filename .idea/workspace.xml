@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a944d9c-572f-449c-ae1a-603d4c5d7083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Day7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Day8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586186632760</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day7">
+      <created>1586598808850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586598808850</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,18 +240,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final day" />
     <MESSAGE value="Day30 challenge is started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day30 challenge is started" />
+    <MESSAGE value="day7" />
+    <option name="LAST_COMMIT_MESSAGE" value="day7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1024" y="311" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1583226785427">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1024" y="311" key="#com.intellij.ide.util.MemberChooser/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583226785427" />
-    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2" timestamp="1586186632492">
+    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2" timestamp="1586598808654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="228" y="219" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838266721" />
-    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586186632492" />
+    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586598808654" />
     <state x="304" y="295" key="CommitChangelistDialog2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227950703" />
     <state width="1874" height="123" key="GridCell.Tab.0.bottom" timestamp="1586186673217">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -286,20 +294,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579081181023" />
-    <state x="673" y="237" width="564" height="561" key="MultipleFileMergeDialog" timestamp="1585838290654">
+    <state x="673" y="237" width="564" height="561" key="MultipleFileMergeDialog" timestamp="1586598690402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="237" width="564" height="561" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838290654" />
+    <state x="673" y="237" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586598690402" />
     <state x="688" y="273" key="SettingsEditor" timestamp="1583242084295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="273" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583242084295" />
     <state x="917" y="368" key="SettingsEditor/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583205768414" />
-    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1586186636283">
+    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1586598813375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838318060" />
-    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586186636283" />
+    <state x="181" y="322" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586598813375" />
     <state x="241" y="433" key="Vcs.Push.Dialog.v2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227956755" />
     <state x="613" y="137" width="683" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578327786185">
       <screen x="0" y="0" width="1920" height="1040" />
