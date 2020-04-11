@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a944d9c-572f-449c-ae1a-603d4c5d7083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Day9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Day10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Day11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586600735973</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day9 is done">
+      <created>1586604072822</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586604072822</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,42 +257,43 @@
     <MESSAGE value="Day30 challenge is started" />
     <MESSAGE value="day7" />
     <MESSAGE value="day8" />
-    <option name="LAST_COMMIT_MESSAGE" value="day8" />
+    <MESSAGE value="day9 is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day9 is done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1024" y="311" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1583226785427">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1024" y="311" key="#com.intellij.ide.util.MemberChooser/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583226785427" />
-    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2" timestamp="1586600735801">
+    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2" timestamp="1586604072663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="228" y="219" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1585838266721" />
-    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586600735801" />
+    <state x="228" y="219" width="695" height="803" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586604072663" />
     <state x="304" y="295" key="CommitChangelistDialog2/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227950703" />
-    <state width="1874" height="308" key="GridCell.Tab.0.bottom" timestamp="1586603942128">
+    <state width="1874" height="308" key="GridCell.Tab.0.bottom" timestamp="1586619773777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1586014757717" />
-    <state width="1874" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586603942128" />
+    <state width="1874" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586619773777" />
     <state width="1237" height="402" key="GridCell.Tab.0.bottom/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="308" key="GridCell.Tab.0.center" timestamp="1586603942127">
+    <state width="1874" height="308" key="GridCell.Tab.0.center" timestamp="1586619773776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="164" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1586014757717" />
-    <state width="1874" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586603942127" />
+    <state width="1874" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586619773776" />
     <state width="1237" height="402" key="GridCell.Tab.0.center/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="308" key="GridCell.Tab.0.left" timestamp="1586603942127">
+    <state width="1874" height="308" key="GridCell.Tab.0.left" timestamp="1586619773776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="164" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1586014757717" />
-    <state width="1874" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586603942127" />
+    <state width="1874" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586619773776" />
     <state width="1237" height="402" key="GridCell.Tab.0.left/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
-    <state width="1874" height="308" key="GridCell.Tab.0.right" timestamp="1586603942127">
+    <state width="1874" height="308" key="GridCell.Tab.0.right" timestamp="1586619773777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1874" height="164" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.768@0.0.1920.1040" timestamp="1586014757717" />
-    <state width="1874" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586603942127" />
+    <state width="1874" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586619773777" />
     <state width="1237" height="402" key="GridCell.Tab.0.right/3840.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1583227411620" />
     <state width="1874" height="338" key="GridCell.Tab.1.bottom" timestamp="1579081181024">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -335,6 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="121" width="628" height="795" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583241997938" />
+    <state x="705" y="149" width="500" height="738" key="refactoring.ChangeSignatureDialog" timestamp="1586614261485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="705" y="149" width="500" height="738" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586614261485" />
     <state x="1583" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1583227225038">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
