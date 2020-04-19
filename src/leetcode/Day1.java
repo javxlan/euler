@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Day1 {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{3,5,2,5,2};
+        int[] nums = new int[]{3, 5, 2, 5, 2};
         Day1 p = new Day1();
         System.out.println(p.singleNumber(nums));
     }
