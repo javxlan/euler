@@ -25,7 +25,7 @@ public class Day17 {
     }
 
     private void dfs(char[][] grid, int i, int j) {
-        // the location if not inside of boundary or water, it check the next location
+        // the location check whether inside of boundary or not or surround water, it check the next location
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == '0') return;
 
         grid[i][j] = '0';
