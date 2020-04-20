@@ -16,6 +16,8 @@ public class Day18 {
 
     public int minPathSum(int[][] grid) {
 
+        if (grid == null || grid.length == 0) return 0;
+
         Queue<Point> queue = new ArrayDeque<>();
 
         Point start = new Point(0, 0);
