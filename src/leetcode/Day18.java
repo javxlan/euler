@@ -59,6 +59,7 @@ public class Day18 {
     public class Point {
         int row, column;
         int sum = 0;
+        String path = "";
 
         public Point(int row, int column) {
             this.row = row;
