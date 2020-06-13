@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.april;
 
 public class Day3 {
     public static void main(String[] args) {

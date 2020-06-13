@@ -1,6 +1,4 @@
-package leetcode;
-
-import java.util.Arrays;
+package leetcode.april;
 
 public class Day4 {
     public static void main(String[] args) {

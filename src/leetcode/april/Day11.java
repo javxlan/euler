@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.april;
 
 public class Day11 {
     public int diameterOfBinaryTree(TreeNode root) {

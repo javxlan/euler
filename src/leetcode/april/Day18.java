@@ -1,6 +1,5 @@
-package leetcode;
+package leetcode.april;
 
-import java.awt.*;
 import java.util.*;
 
 public class Day18 {

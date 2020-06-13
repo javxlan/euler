@@ -2,8 +2,7 @@ package leetcode.may;
 
 class Trie {
 
-    String[] child = new String[26];
-    String node = null;
+    TrieNode root;
 
     public static void main(String[] args) {
         Trie obj = new Trie();
@@ -22,13 +21,13 @@ class Trie {
      */
     public void insert(String word) {
         char[] str = word.toCharArray();
-        String search = "";
+        TrieNode node = root;
         for (char c : str) {
-            search += String.valueOf(c);
-            if (!startsWith(search)) {
-                this.node = String.valueOf(c);
-            }
+            int u = c - 'a';
+            if (root.child[u] == null) root.child[u] = new TrieNode();
+            node = node.child[u];
         }
+        node.isEnd = true;
     }
 
     /**
@@ -43,6 +42,16 @@ class Trie {
      */
     public boolean startsWith(String prefix) {
         return false;
+    }
+
+    class TrieNode {
+        TrieNode[] child = new TrieNode[26];
+        boolean isEnd;
+
+        public TrieNode() {
+            for (int i = 0; i < 26; i++) child[i] = null;
+            isEnd = false;
+        }
     }
 }
 

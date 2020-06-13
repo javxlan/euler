@@ -1,6 +1,5 @@
-package leetcode;
+package leetcode.april;
 
-import javax.xml.namespace.QName;
 import java.util.Arrays;
 
 public class Day1 {
