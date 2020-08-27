@@ -13,12 +13,10 @@ public class FirstBadVersion {
         return findBadVersion(0, n, n / 2);
     }
 
-
     public int findBadVersion(int left, int right, int middle) {
 
         if ((right - left) == 2) middle = left + 1;
         if (isBadVersion(middle) && !isBadVersion(middle - 1)) return middle;
-
 
         System.out.println(left + "," + right + "," + middle);
 
@@ -28,7 +26,6 @@ public class FirstBadVersion {
             return findBadVersion(middle, right, (right - (right - left) / 4));
         }
     }
-
 
     private boolean isBadVersion(int i) {
         return i >= 27;
