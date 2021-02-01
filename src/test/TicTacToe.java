@@ -15,7 +15,7 @@ public class TicTacToe {
     private boolean isFinish = false;
 
     public static void main(String[] args) {
-        int k = 2;
+        int k = 3;
         TicTacToe t = new TicTacToe();
         Scanner scanner = null;
         //(t.nextMove(1, 1, 1));

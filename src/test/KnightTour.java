@@ -94,7 +94,7 @@ class KnightTour {
 
     /* Driver program to test above functions */
     public static void main(String args[]) {
-        Point startPoint = new Point(2, 2, null);
+        Point startPoint = new Point(0, 0, null);
         solveKT(startPoint);
     }
 
