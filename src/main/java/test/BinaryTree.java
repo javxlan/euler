@@ -42,14 +42,22 @@ public class BinaryTree {
         }
     }
 
+    public void testTraverseTree(Node focusNode) {
+        if (focusNode != null) {
+            System.out.println(focusNode);
+            testTraverseTree(focusNode.leftChild);
+            testTraverseTree(focusNode.rightChild);
+        }
+    }
+
     public static void main(String[] args) {
         BinaryTree tTree = new BinaryTree();
-        tTree.addNode(50, "Boss");
-        tTree.addNode(789, "Vise Pres");
-        tTree.addNode(15, "Office Manager");
-        tTree.addNode(30, "Secretary");
-        tTree.addNode(75, "Sales Manager");
-        tTree.addNode(85, "Salesman 1");
+        tTree.addNode(14, "14");
+        tTree.addNode(16, "16");
+        tTree.addNode(41, "41");
+        tTree.addNode(16, "16");
+        tTree.addNode(16, "16");
+        tTree.addNode(16, "16");
 
         tTree.inOrderTraverseTree(tTree.root);
     }
