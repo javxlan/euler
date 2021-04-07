@@ -33,7 +33,6 @@ public class IotDevices {
             JsonObject page = getUrl(url + "&page=" + i);
             JsonArray arr = page.getAsJsonArray("data");
             for (int j = 0; j < arr.size(); j++) {
-
                 JsonObject row = arr.get(i).getAsJsonObject();
                 String date = row.get("timestamp").getAsString();
                 String converted = timeStampToString(date);
