@@ -195,8 +195,21 @@ public class Solution {
 //        int k = 2;
 //
 //        System.out.println(kMessedArray(arr, k));
-
-        System.out.println(root(8,2));
+//        List<Integer> ls = new ArrayList<>();
+//        ls.add(3);
+//        ls.add(3);
+//        ls.add(1);
+//        ls.add(2);
+//        ls.add(1);
+//        System.out.println(groupSort(ls));
+        List<Integer> ls = new ArrayList<>();
+        ls.add(2);
+        ls.add(1);
+        ls.add(3);
+        //ls.add(1);
+        //ls.add(2);
+        System.out.println(canRepresentBST(ls));
+        //System.out.println(root(8,2));
 
 
         //System.out.println(new Solution().decodeString("3[z]2[2[y]pq4[2[jk]e1[f]]]ef"));
@@ -316,6 +329,53 @@ public class Solution {
             x*=x;
         }
         return x;
+    }
+
+    public static List<List<Integer>> groupSort(List<Integer> arr) {
+        // Write your code here
+        Collections.sort(arr);
+
+        List<List<Integer>> ans = new ArrayList<>();
+
+        Map<Integer,Integer> map = new HashMap<>();
+
+        for(int i = 0;i<arr.size();i++){
+            map.put(arr.get(i), map.getOrDefault(arr.get(i), 0)+1);
+        }
+
+        for(int key : map.keySet()){
+            List<Integer> temp = new ArrayList<>();
+            temp.add(key);
+            temp.add(map.get(key));
+            ans.add(temp);
+        }
+
+        Collections.sort(ans,(a,b)->{
+
+            if(b.get(1)==a.get(1)) return a.get(0)-b.get(0);
+            return b.get(1)-a.get(1);
+            //if(a.get(1)==b.get(1)) return a.get(1)-b.get(1);
+            //else return b.get(0)-a.get(0);
+        });
+
+
+        return ans;
+    }
+
+   static String canRepresentBST(List<Integer> a) {
+        Stack<Integer> s = new Stack<Integer>();
+        int root = Integer.MIN_VALUE;
+        for (int i = 0; i < a.size(); i++) {
+            if (a.get(i) < root) {
+                return "NO";
+            }
+            while (!s.empty() && s.peek() < a.get(i)) {
+                root = s.peek();
+                s.pop();
+            }
+            s.push(a.get(i));
+        }
+        return "YES";
     }
 }
 
