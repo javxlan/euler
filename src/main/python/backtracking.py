@@ -44,5 +44,3 @@ robot = Robot()
 path = [[3, 1]]
 r = robot.findPath(path[0][0], path[0][1], path)
 print(path)
-
-
