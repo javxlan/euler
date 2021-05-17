@@ -1,83 +1,68 @@
+from typing import List
+
+
 class Sudoku:
 
     def __init__(self, board=[[]]) -> None:
-        
+
         self.board = board
-        self.rows = []
-        self.cols = []
 
-        for row in range(len(self.board)):
-            temp = set()
-            for col in range(len(self.board)):
-                if self.board[row][col] != 0:
-                    temp.add(self.board[row][col])
-            self.rows.append(temp)            
-
-        for col in range(len(self.board)):
-            temp = set()
-            for row in range(len(self.board)):
-                if self.board[row][col] != 0:
-                    temp.add(self.board[row][col])
-            self.cols.append(temp)            
-
-
-    def solve(self) -> None:
-        i, j = self.next()        
-        if i==-1 and j==-1:    
+    def solve(self) -> bool:
+        i, j = self.next()
+        if i == -1 and j == -1:
             for row in self.board:
-                print(row)        
-            return
-        
-        numbers = self.getNumbers(i,j)        
+                print(row)
+            return True
+
+        numbers = self.getNumbers(i, j)
 
         if numbers is None:
-            return
+            return False
 
         for number in numbers:
-            #print(number)
-            temp = self.board[i][j]
             self.board[i][j] = number
-            #self.rows[i]            
-            self.solve()
-            self.board[i][j] = temp
+            if self.solve():
+                return True
+            self.board[i][j] = "."
+        return False
 
-        return
+    def is_valid(self, row: int, col: int, val: str) -> bool:
 
-        # print(self.board)
+        # check row
+        if val in self.board[row]:
+            return False
 
-    def getNumbers(self, i: int, j: int):
+        # check col
+        col_vals = [self.board[i][col] for i in range(len(self.board))]
+        if val in col_vals:
+            return False
+
+        # check box
+        row_start = (row//3) * 3
+        col_start = (col//3) * 3
+
+        for r in range(row_start, row_start+3):
+            for c in range(col_start, col_start+3):
+                if self.board[r][c] == val:
+                    return False
+        return True
+
+    def getNumbers(self, i: int, j: int) -> List[str]:
         ls = []
-        for num in range(1, len(self.board)+1):                        
-            if num not in self.rows[i] and num not in self.cols[j]:
-                ls.append(num)                 
+        for num in range(1, len(self.board)+1):
+            if self.is_valid(i, j, str(num)):
+                ls.append(str(num))
         return ls
 
     def next(self):
         for i in range(len(self.board)):
             for j in range(len(self.board[i])):
-                if self.board[i][j] == 0:
+                if self.board[i][j] == ".":
                     return i, j
         return -1, -1
 
 
-# board = [[5,3,0,0,7,0,0,0,0],
-#          [6,0,0,1,9,5,0,0,0],
-#          [0,9,8,0,0,0,0,6,0],
-#          [8,0,0,0,6,0,0,0,3],
-#          [4,0,0,8,0,3,0,0,1],
-#          [7,0,0,0,2,0,0,0,6],
-#          [0,6,0,0,0,0,2,8,0],
-#          [0,0,0,4,1,9,0,0,5],
-#          [0,0,0,0,8,0,0,7,9]]
-
-board = [[0,0,0,3],
-         [0,1,0,4,],
-         [4,2,3,1,],
-         [1,1,4,2,]]         
-
-
+board = [["5", "3", ".", ".", "7", ".", ".", ".", "."], ["6", ".", ".", "1", "9", "5", ".", ".", "."], [".", "9", "8", ".", ".", ".", ".", "6", "."], ["8", ".", ".", ".", "6", ".", ".", ".", "3"], ["4", ".", ".", "8",
+                                                                                                                                                                                                      ".", "3", ".", ".", "1"], ["7", ".", ".", ".", "2", ".", ".", ".", "6"], [".", "6", ".", ".", ".", ".", "2", "8", "."], [".", ".", ".", "4", "1", "9", ".", ".", "5"], [".", ".", ".", ".", "8", ".", ".", "7", "9"]]
 sudoku = Sudoku(board)
-
 sudoku.solve()
-
-#print(sudoku.board)
