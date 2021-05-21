@@ -10,8 +10,8 @@ class Sudoku:
     def solve(self) -> bool:
         i, j = self.next()
         if i == -1 and j == -1:
-            for row in self.board:
-                print(row)
+            # for row in self.board:
+            #     print(row)
             return True
 
         numbers = self.getNumbers(i, j)
@@ -66,3 +66,4 @@ board = [["5", "3", ".", ".", "7", ".", ".", ".", "."], ["6", ".", ".", "1", "9"
                                                                                                                                                                                                       ".", "3", ".", ".", "1"], ["7", ".", ".", ".", "2", ".", ".", ".", "6"], [".", "6", ".", ".", ".", ".", "2", "8", "."], [".", ".", ".", "4", "1", "9", ".", ".", "5"], [".", ".", ".", ".", "8", ".", ".", "7", "9"]]
 sudoku = Sudoku(board)
 sudoku.solve()
+print(sudoku.board)

@@ -1,13 +1,10 @@
 from typing import List
 
 
-class Solution:
-    # def __init__(self) -> None:
-    #     self.ans = []
-
+class Solution:    
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        temp = []
         self.ans = []
+        temp = []        
         candidates.sort()
         self.solve(candidates, target, candidates[0], temp)
         return self.ans
@@ -21,16 +18,16 @@ class Solution:
         for candidate in candidates:
             if candidate >= can:
                 temp.append(candidate)
-                if self.solve(candidates, target-candidate, candidate, temp):
-                    self.ans.append(temp)
-                    # print(temp)
+                if self.solve(candidates, target-candidate, candidate, temp):                    
+                    self.ans.append(temp)                                                          
                 temp.pop()
         return False
 
 
-candidates = [2, 3, 5]
-target = 8
+candidates = [2,2,3]
+target = 7
 
 s = Solution()
 # s.combinationSum(candidates, target)
-print(s.combinationSum(candidates, target))
+result  =  s.combinationSum(candidates, target)
+print(result)
